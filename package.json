@@ -1,0 +1,19 @@
+{
+  "name": "grant-pipeline-app",
+  "version": "2.0.0",
+  "description": "Grant Pipeline Intelligence System — Backend con agentes IA",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.52.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
