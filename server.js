@@ -1,3 +1,4 @@
+import 'dotenv/config';
 // ═══════════════════════════════════════════════════════════
 // GRANT PIPELINE INTELLIGENCE — Backend Server v2
 // Node.js + Express + Anthropic SDK
